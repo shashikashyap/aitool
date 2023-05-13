@@ -1,0 +1,235 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* NAVBAR STYLING */
+nav {
+  position: sticky;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  padding: 0 2rem;
+  background-color: #f1f6f600;
+}
+.menu-link {
+  margin: 0 2rem;
+  padding: 2px;
+  text-decoration: none;
+}
+.logo h1 {
+  color: #fb48ef;
+}
+a {
+  margin-right: 25px;
+  text-decoration: none;
+}
+/* NAVBAR STYLING */
+
+/* SEARCHBAR STYLING */
+
+.search {
+  text-align: center;
+  background-color: #fb48ef;
+  border-radius: 9px;
+
+  height: 300px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.zero {
+  margin: 15px;
+}
+.zero h1 {
+  color: white;
+}
+.zero h3 {
+  color: white;
+}
+
+/* REAL SEARBAR STYLING */
+
+.two {
+  margin-bottom: 20px;
+}
+
+
+
+.search-input {
+  height: 35px;
+  width: 20%;
+  padding: 0 20px;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  Font-size: 16px;
+  color: rgb(113, 58, 58);
+}
+/* REAL SEARBAR STYLING */
+
+.camera {
+  position: relative;
+  display: flex;
+ align-items: center;
+  max-width: 100%;
+  height: 245px;
+  margin-left: 149px;
+  margin-right: 150px;
+  background-color: #74ebd5;
+  border-radius: 10px;
+}
+.camera img {
+  top: -49;
+  right: 0;
+  bottom: -40px;
+  width: 367px;
+  height: 327px;
+  position: absolute;
+  display: flex;
+   
+}
+.camera text{
+  padding-left: 20px;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+}
+ 
+
+.camera h2 {
+
+  color: white;
+}
+.camera h3 {
+  font-weight: 900;
+  font-size: 30px;
+  margin-left: 144px;
+  color: white;
+}
+ 
+
+
+/* BROD TEXT STYLING */
+ .core {
+  margin-top: 245px;
+  text-align: center;
+}
+.core h1 {
+  color: rgb(238, 121, 221);
+}
+.core h2 {
+  color: blueviolet;
+}
+
+
+
+
+
+.btn3{
+
+
+display:flex;
+justify-content: end;
+align-items: center;
+margin-right: 130px !important;   
+  }
+.btn{
+  display: inline-block;
+  margin: 0px
+}
+h5{
+  font-size: 30px !important;
+  font-weight: bold;
+}
+
+.imgg{
+  width: 200px;
+}
+.chat{
+
+display: flex;
+margin-top: 35px;
+}
+
+.btn4{
+
+justify-content: end;
+  display: block;
+  margin-bottom: 30px;
+
+
+}
+.image{
+  background-color: #edb7d4;
+  border-radius: 15px;
+  width: 150px;
+  margin-left: 40px;
+}
+
+.btn-outline{
+  background-color: rgb(236, 10, 236) !important;
+  color: #FFFF !important;
+}
+
+.navbar-brand{
+  color:rgb(236, 10, 236) !important;
+  font-size: 35px !important;
+  font-weight: bold ;
+}
+
+.card-title, .card-text{
+  font-size: 14px !important;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+}
+
+.nav-link:hover{
+  color: black !important;
+}
+
+.col {
+  flex: 1 0;
+  width: 18% !important;
+  height: 140% !important;
+  /* border: 2px solid green; */
+}
+
+.card{
+  --bs-card-spacer-y: 0rem;
+  --bs-card-spacer-x: 0rem;
+  --bs-card-title-spacer-y: 0.5rem;
+  --bs-card-border-width: -11px;
+  --bs-card-border-color: ;
+}
+
+.rounded {
+  border-radius: var(--bs-border-radius)!important;
+  border: 2px solid blue !important;
+  height:  auto !important;
+
+}
+
+button, select {
+  text-transform: none;
+  font-size: 14px !important;
+  
+}
+
+.p{
+  margin-top: 0;
+  margin-bottom: 2px;
+}
+
+.cody{
+
+  margin: 0 45px 0 45px;
+ 
+}
+.card-bodyy{
+  margin-left: 40px;
+
+}
+
